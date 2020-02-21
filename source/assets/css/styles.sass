@@ -1,0 +1,256 @@
+@import "_vars"
+@import url("https://use.typekit.net/kpa5qsn.css")
+@import "_preset"
+
+// TODO:
+
+// Besprechen mit Kunden
+// - nicht gut: Slogan in Kombination mit Slidertexte
+// - Wie war das mit den Portraitbildern im Slider? Pias Input.
+
+
+html
+  overflow-y: scroll
+
+*
+  margin: 0 0
+  font-variant-numeric: normal
+
+#container
+  max-width: 1000px
+  margin: 0 auto
+
+// ____________________________________________
+
+.header
+  padding-top: 1em
+  display: grid
+  grid-template-columns: 250px 1fr
+  grid-gap: 1em
+  justify-content: space-evenly
+  align-items: end
+  img
+    height: 180px
+    width: auto
+    position: relative
+    left: -2px
+    overflow: hidden
+  .standortmenu, div
+    border-bottom: 2px solid grey
+    padding-bottom: 0.6em
+  .standortmenu
+    display: flex
+    flex-flow: wrap-reverse
+    justify-content: space-between
+  .standort
+    border: none
+  h1, .standort
+    font-size: 0.9rem
+    font-weight: bold
+    color: #c4151c
+    padding-top: 1em
+  a
+    text-decoration: none
+
+  .currentloc
+    color: $text
+    background-image: linear-gradient($schmuck,$schmuck)
+    background-size: 100% 1px
+    background-repeat: no-repeat
+    background-position: 0 98%
+
+// ____________________________________________
+
+i
+  color: fuchsia
+
+.box
+  display: grid
+  grid-template-columns: 250px auto
+  grid-gap: 1em
+  padding: 1rem 0 2em 0
+
+menu
+  width: 250px
+  font-size: 1rem
+  margin: 0
+  padding: 0
+  ul
+    margin-bottom: 0.7rem
+  li
+    line-height: 1.3rem
+  a
+    text-decoration: none
+  a:hover
+    color: $schmuck
+
+#kontaktdaten
+  a
+    color: $text
+    font-weight: bold
+    font-size: 0.9rem
+  a:hover
+    color: $schmuck
+
+#impressum
+  position: fixed
+  bottom: 1em
+  font-size: 13px
+
+.current
+  color: $schmuck
+  position: relative
+.current::before
+  content: ""
+  height: 0.5rem
+  width: 0.5rem
+  border-top: 3px solid $schmuck
+  border-left: 3px solid $schmuck
+  transform: rotate(135deg)
+  position: absolute
+  left: -20px
+  top: 0.45rem
+
+// ____________________________________________
+
+.content
+  padding-bottom: 4rem
+  h1
+    font-size: 1.9rem
+    line-height: 1.2em
+    margin-bottom: 1.5rem
+    font-weight: normal
+    color: $titel
+    position: relative
+    top: -2px
+    sup
+      font-size: 0.5em
+      margin-left: -0.1em
+  h2
+    font-size: 0.95rem
+    line-height: 1.3rem
+  h3
+    margin-bottom: 1.3rem
+    margin-top: -1rem
+  sup
+    line-height: 1em
+    font-size: 0.7em
+    margin-left: 0.1em
+    color: inherit
+  ul, p, .slider
+    margin-bottom: 1.3em
+  .aufzaehlung
+    margin-bottom: 0
+  li
+    position: relative
+    padding-left: 1.2rem
+  li::before
+    content: " "
+    height: 0.45rem
+    width: 0.45rem
+    border-top: 3px solid $schmuck
+    border-left: 3px solid $schmuck
+    transform: rotate(135deg)
+    position: absolute
+    left: -1px
+    top: 0.5rem
+  hr
+    margin-bottom: 1em
+    width: 24px
+  a
+    text-decoration: none
+    background-image: linear-gradient(lighten($titel, 25%),lighten($titel, 25%))
+    background-size: 100% 1px
+    background-repeat: no-repeat
+    background-position: 0 90%
+    &:hover
+      background-image: linear-gradient($schmuck,$schmuck)
+  .listenbr
+    line-height: 0.6em
+
+.slider
+  background-color: $schmuck
+  margin-top: 0.3rem
+  .slide
+    background-color: $schmuck
+    min-height: 20rem
+    width: 100%
+  p
+    font-weight: bold
+    color: white
+    font-size: 2.5rem
+    text-transform: uppercase
+    line-height: 1.15em
+    padding: 1rem
+
+.teamslide
+  padding: 0
+  margin: 0
+  min-height: inherit
+  .teamfotos
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    grid-gap: 0
+    background-color: lighten($titel, 25%)
+  p
+    font-size: 2.3rem
+    padding: 1rem
+    margin: 0
+    background-color: lighten($titel, 25%)
+
+
+.personen
+  display: grid
+  grid-template-columns: 1fr 1fr 1fr
+  grid-gap: 1em
+  margin-top: 2em
+  img
+    margin-bottom: 0.5em
+    margin-top: 0.5em
+.team
+  margin: 0
+  p
+    margin-bottom: 0
+  p:hover
+    color: $schmuck
+  h2:hover
+    color: $schmuck
+
+input
+  margin-top: 0.5em
+
+.button
+  background-color: $titel
+  color: white
+  padding: 4px 15px 6px 15px
+  margin-top: 0.5em
+  border: none
+
+.karten
+  display: grid
+  width: 100%
+  grid-template-columns: 1fr 1fr 1fr 1fr
+  grid-gap: 1em
+  img
+    width: 100%
+    height: auto
+    margin-bottom: 0.5em
+  p
+    margin: 0
+
+#hellertext
+  p
+    color: lighten($titel, 25%)
+
+#hellertext
+  p:hover
+    color: $text
+    transition: 0.7s
+  p:active
+    color: $text
+  .black
+    color: $text
+  .fat
+    font-weight: bold
+  .ganzhell
+    color: lighten($titel, 30%)
