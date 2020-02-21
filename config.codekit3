@@ -40,7 +40,7 @@
 		"oF": 0
 		},
 	"/source/aktuelles-seminar.kit": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
@@ -327,6 +327,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/assets/files/SSA-WB-2019.pdf",
+		"oF": 0
+		},
+	"/source/assets/files/SSA-WB-Juni-2020.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/assets/files/SSA-WB-Juni-2020.pdf",
 		"oF": 0
 		},
 	"/source/assets/files/Taeterarbeit_Artikel_SozialAktuell_2015.pdf": {
