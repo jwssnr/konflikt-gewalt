@@ -1,0 +1,28 @@
+body:before
+  content: "standard"
+  position: fixed
+  background: rgb(94, 207, 136)
+  color: white
+  left: 0
+  top: 50%
+  padding: 15px 20px
+  z-index: 9999
+  font-weight: bold
+  display: block
+body:before
+  +bp(mega)
+    content: "mega"
+    background: fuchsia
+    display: block
+body:before
+  +bp(maxi)
+    content: "maxi"
+    background: orange
+body:before
+  +bp(midi)
+    content: "midi"
+    background: black
+body:before
+  +bp(mini)
+    content: "mini"
+    background: cyan
