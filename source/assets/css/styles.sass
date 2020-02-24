@@ -6,7 +6,10 @@
 
 html
   overflow-y: scroll
-
+  +bp (mega)
+    font-size: 18px
+  +bp (midi)
+    font-size: 16px
 *
   margin: 0 0
   font-variant-numeric: normal
@@ -14,6 +17,8 @@ html
 #container
   max-width: 1000px
   margin: 0 auto
+  +bp (mega)
+    padding: 0 2rem 0 2rem
 
 // ____________________________________________
 
@@ -21,7 +26,7 @@ html
   padding-top: 1em
   display: grid
   grid-template-columns: 250px 1fr
-  grid-gap: 1em
+  grid-column-gap: 1em
   justify-content: space-evenly
   align-items: end
   img
@@ -30,16 +35,28 @@ html
     position: relative
     left: -2px
     overflow: hidden
-  .standortmenu, div
-    border-bottom: 2px solid grey
-    padding-bottom: 0.6em
   .standortmenu
     display: flex
     flex-flow: wrap-reverse
     justify-content: space-between
+    +bp (mega)
+      flex-direction: column
+      outline: 1px dotted red
+      position: absolute
+      right: 0
+      padding: 1rem
+  .mobilestandorte
+    position: relative
+    display: none
+    text-align: right
+    +bp (mega)
+      display: block
+
   .standort
     border: none
     color: $text
+  .standort:hover
+    color: $schmuck
   h1, .standort
     font-size: 0.9rem
     font-weight: bold
@@ -68,6 +85,8 @@ menu
   font-size: 1rem
   margin: 0
   padding: 0
+  border-top: 2px solid grey
+  padding-top: 0.6em
   ul
     margin-bottom: 0.7rem
   li
@@ -108,6 +127,8 @@ menu
 
 .content
   padding-bottom: 4rem
+  border-top: 2px solid grey
+  padding-top: 0.6em
   h1
     font-size: 1.9rem
     line-height: 1.2em
