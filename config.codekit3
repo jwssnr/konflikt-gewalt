@@ -693,6 +693,14 @@
 		"oAP": "/build/einzelne-paare-familien.html",
 		"oF": 0
 		},
+	"/source/einzelne-paare-familien_hover.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/einzelne-paare-familien_hover.html",
+		"oF": 0
+		},
 	"/source/fachlicher-hintergrund.kit": {
 		"cB": 1,
 		"ft": 2048,
@@ -715,6 +723,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/images/favicon.ico",
+		"oF": 0
+		},
+	"/source/images/gewaltkreislauf.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/images/gewaltkreislauf.pdf",
 		"oF": 0
 		},
 	"/source/images/KonfliktGewalt.svg": {

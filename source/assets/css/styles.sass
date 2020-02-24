@@ -44,20 +44,18 @@ html
     justify-content: space-between
   .standort
     border: none
+    color: $text
   h1, .standort
     font-size: 0.9rem
     font-weight: bold
-    color: #c4151c
     padding-top: 1em
+  h1
+    color: $schmuck
   a
     text-decoration: none
 
   .currentloc
-    color: $text
-    background-image: linear-gradient($schmuck,$schmuck)
-    background-size: 100% 1px
-    background-repeat: no-repeat
-    background-position: 0 98%
+    color: $schmuck
 
 // ____________________________________________
 
@@ -148,8 +146,8 @@ menu
     content: " "
     height: 0.45rem
     width: 0.45rem
-    border-top: 3px solid $schmuck
-    border-left: 3px solid $schmuck
+    border-top: 3px solid $text
+    border-left: 3px solid $text
     transform: rotate(135deg)
     position: absolute
     left: -1px
@@ -238,19 +236,24 @@ input
   p
     margin: 0
 
-#hellertext
-  p
-    color: lighten($titel, 25%)
+.gk
+  width: 300px
+  height: auto
 
-#hellertext
-  p:hover
-    color: $text
-    transition: 0.7s
-  p:active
-    color: $text
-  .black
-    color: $text
-  .fat
-    font-weight: bold
-  .ganzhell
-    color: lighten($titel, 30%)
+
+// #hellertext
+//   p
+//     color: lighten($titel, 25%)
+//
+// #hellertext
+//   p:hover
+//     color: $text
+//     transition: 0.7s
+//   p:active
+//     color: $text
+//   .black
+//     color: $text
+//   .fat
+//     font-weight: bold
+//   .ganzhell
+//     color: lighten($titel, 30%)
