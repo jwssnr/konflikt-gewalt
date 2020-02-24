@@ -446,7 +446,7 @@
 		"oAP": "/build/assets/images/personen/Andreas_Hartmann.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/assets/images/personen/Bernard_Pivetta.jpg": {
@@ -457,7 +457,7 @@
 		"oAP": "/build/assets/images/personen/Bernard_Pivetta.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/assets/images/personen/Bruno_Manser.jpg": {
@@ -468,7 +468,7 @@
 		"oAP": "/build/assets/images/personen/Bruno_Manser.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/assets/images/personen/Bruno_Tscholl.jpg": {
@@ -479,7 +479,7 @@
 		"oAP": "/build/assets/images/personen/Bruno_Tscholl.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/assets/images/personen/Hannes_Schaefer.jpg": {
@@ -490,7 +490,7 @@
 		"oAP": "/build/assets/images/personen/Hannes_Schaefer.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/assets/images/personen/Hans_Rudolf_Luescher.jpg": {
@@ -501,7 +501,7 @@
 		"oAP": "/build/assets/images/personen/Hans_Rudolf_Luescher.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/assets/images/personen/Matthias_Koller_Filliger.jpg": {
@@ -512,7 +512,7 @@
 		"oAP": "/build/assets/images/personen/Matthias_Koller_Filliger.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/assets/images/personen/Sema_Stepanik.jpg": {
@@ -523,7 +523,7 @@
 		"oAP": "/build/assets/images/personen/Sema_Stepanik.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/assets/images/personen/Urban_Bruehwiler.jpg": {
@@ -534,7 +534,7 @@
 		"oAP": "/build/assets/images/personen/Urban_Bruehwiler.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/assets/images/slider/ah.jpg": {
@@ -858,7 +858,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_teal",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 602770205.92490399
+	"lastBuiltDate": 604227997.21694601
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
