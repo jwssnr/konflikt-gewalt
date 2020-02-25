@@ -18,4 +18,8 @@
       $(".standortmenu").toggleClass("offen");
     });
 
+    $(".mobilemenu").click(function(){
+      $(".mobileclass").toggleClass("menuoffen");
+    });
+
   });
