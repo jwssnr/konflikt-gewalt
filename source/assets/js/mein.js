@@ -14,4 +14,8 @@
 
     $('.keinspam').nospam({ replaceText: true });
 
+    $(".mobilestandorte").click(function(){
+      $(".standortmenu").toggleClass("offen");
+    });
+
   });

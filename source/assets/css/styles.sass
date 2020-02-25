@@ -18,7 +18,8 @@ html
   max-width: 1000px
   margin: 0 auto
   +bp (mega)
-    padding: 0 2rem 0 2rem
+    padding: 0 7% 0 7%
+    max-width: 100%
 
 // ____________________________________________
 
@@ -35,22 +36,28 @@ html
     position: relative
     left: -2px
     overflow: hidden
-  .standortmenu
-    display: flex
-    flex-flow: wrap-reverse
-    justify-content: space-between
-    +bp (mega)
-      flex-direction: column
-      outline: 1px dotted red
-      position: absolute
-      right: 0
-      padding: 1rem
   .mobilestandorte
-    position: relative
     display: none
     text-align: right
     +bp (mega)
       display: block
+  .standortmenu
+    display: flex
+    justify-content: space-between
+    +bp (mega)
+      flex-direction: column
+      text-align: right
+      position: absolute
+      right: 7%
+      top: 0
+      padding-top: 2em
+      background-color: whitesmoke
+      transform: translateY(-100%)
+      transition: transform 0.3s ease-out
+      &.offen
+        transform: translateY(0)
+
+
 
   .standort
     border: none
@@ -76,7 +83,7 @@ i
 
 .box
   display: grid
-  grid-template-columns: 250px auto
+  grid-template-columns: 1fr auto
   grid-gap: 1em
   padding: 1rem 0 2em 0
 
@@ -87,6 +94,8 @@ menu
   padding: 0
   border-top: 2px solid grey
   padding-top: 0.6em
+  +bp (maxi)
+    width: 200px
   ul
     margin-bottom: 0.7rem
   li
@@ -95,6 +104,18 @@ menu
     text-decoration: none
   a:hover
     color: $schmuck
+.mobilemenu
+  display: none
+  +bp (midi)
+    display: block
+    position: absolute
+    right: 1em
+    top: 1em
+  width: 35px
+  hr
+    color: $schmuck
+    margin-bottom: 10px
+    border: 2px solid $schmuck
 
 #kontaktdaten
   a
@@ -233,6 +254,10 @@ menu
   grid-template-columns: 1fr 1fr 1fr
   grid-gap: 1em
   margin-top: 2em
+  +bp (maxi)
+    grid-template-columns: 1fr 1fr
+  +bp (midi)
+    grid-template-columns: 1fr
   img
     margin-bottom: 0.5em
     margin-top: 0.5em
