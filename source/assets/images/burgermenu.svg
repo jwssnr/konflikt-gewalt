@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="79" height="68" viewBox="0 0 79 68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #c3161c;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <title>Element 1</title>
+  <g id="Ebene_2" data-name="Ebene 2">
+    <g id="Ebene_1-2" data-name="Ebene 1">
+      <g>
+        <line class="cls-1" x1="79" y1="2.5" y2="2.5"/>
+        <line class="cls-1" x1="79" y1="34" y2="34"/>
+        <line class="cls-1" x1="79" y1="65.5" y2="65.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -387,6 +387,26 @@
 		"oAP": "/build/assets/files/WegbeschreibungSt.Gallen.pdf",
 		"oF": 0
 		},
+	"/source/assets/images/burgermenu.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/assets/images/burgermenu.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/source/assets/images/close.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/assets/images/close.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/source/assets/images/karten/Karte1.jpg": {
 		"ft": 16384,
 		"iS": 12455,

@@ -19,6 +19,7 @@
     });
 
     $(".mobilemenu").click(function(){
+      $(this).toggleClass("schliessen")
       $(".mobileclass").toggleClass("menuoffen");
     });
 
