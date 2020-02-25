@@ -1,0 +1,53 @@
+.slider
+  background-color: $schmuck
+  margin-top: 0.3rem
+  .slide
+    background-color: $schmuck
+    min-height: 21rem
+    width: 100%
+  p
+    font-weight: bold
+    color: white
+    font-size: 2.5rem
+    text-transform: uppercase
+    line-height: 1.15em
+    padding: 1rem
+    +bp (maxi)
+      font-size: 2rem
+    +bp (mini)
+      font-size: 1.5rem
+
+// .teamslide
+//   padding: 0
+//   margin: 0
+//   min-height: inherit
+//   .teamfotos
+//     display: grid
+//     grid-template-columns: 1fr 1fr 1fr
+//     grid-gap: 0
+//     background-color: lighten($titel, 25%)
+//   p
+//     font-size: 2.3rem
+//     padding: 1rem
+//     margin: 0
+//     background-color: lighten($titel, 25%)
+
+.teamslide
+  padding: 0
+  margin: 0
+  min-height: inherit
+  .teamfotos
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+    grid-gap: 0
+    background-color: lighten($titel, 25%)
+    +bp (mini)
+      grid-template-columns: 1fr 1fr 1fr
+
+  p
+    font-size: 2.2rem
+    padding: 0.8rem
+    margin: 0
+    background-color: lighten($titel, 25%)
+    +bp (mini)
+      font-size: 1.5rem

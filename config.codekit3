@@ -86,6 +86,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"/source/assets/css/_slider.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/assets/css/_slider.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"/source/assets/css/_vars.sass": {
 		"aP": 1,
 		"bl": 0,
