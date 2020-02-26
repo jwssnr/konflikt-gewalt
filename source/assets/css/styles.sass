@@ -96,6 +96,8 @@ i
   grid-template-columns: auto 1fr
   grid-gap: 1em
   padding: 1rem 0 2em 0
+  +bp (maxi)
+    display: flex
   +bp (midi)
     grid-gap: 0
     grid-template-columns: auto
@@ -108,7 +110,7 @@ menu
   border-top: 2px solid grey
   padding-top: 0.6em
   +bp (maxi)
-    width: 200px
+      min-width: 200px
   +bp (midi)
     display: none
     position: absolute
@@ -184,7 +186,6 @@ menu
   padding-bottom: 4rem
   border-top: 2px solid grey
   padding-top: 0.6em
-  min-width: 100%
   h1
     font-size: 1.9rem
     line-height: 1.2em
