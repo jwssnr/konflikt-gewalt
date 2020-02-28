@@ -7,7 +7,7 @@
     $('.slider').cycle({
       fx: "scrollHorz",
       timeout: 4000,
-      random: true,
+      random: false,
       speed: 800,
       slides: "> .slide"
     });
