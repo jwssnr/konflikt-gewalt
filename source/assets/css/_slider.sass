@@ -9,8 +9,10 @@
     display: grid
     grid-template-columns: 1fr 1fr 1fr
     grid-gap: 1em
+    +bp (maxi)
+      grid-gap: 0.5em
     +bp (mini)
-      grid-template-columns: 1fr 1fr 1fr
+      grid-gap: 0.3em
   p
     font-weight: bold
     text-transform: uppercase
