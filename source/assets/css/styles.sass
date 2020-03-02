@@ -303,22 +303,37 @@ input
     width: 80%
     margin: 2em 10% 1em
 
-
-
-
-// #hellertext
-//   p
-//     color: lighten($titel, 25%)
-//
-// #hellertext
-//   p:hover
-//     color: $text
-//     transition: 0.7s
-//   p:active
-//     color: $text
-//   .black
-//     color: $text
-//   .fat
-//     font-weight: bold
-//   .ganzhell
-//     color: lighten($titel, 30%)
+.cover
+  position: fixed
+  height: 100vh
+  left: 0
+  top: 0
+  width: 100vw
+  z-index: 2000
+  background-color: rgba(black, 0.2)
+.browserblast
+  h2, p, a
+    color: whitesmoke
+    margin-bottom: 0.7em
+  position: fixed
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  background-color: #222222
+  outline: 2px solid $titel
+  padding: 1em
+  margin: 0 auto
+  width: 35%
+  max-width: 45  0px
+  z-index: 3000
+  +bp (maxi)
+    width: 50%
+  +bp (midi)
+    width: 70%
+  +bp (mini)
+    width: 90%
+  .browserblast__closer
+    font-size: 3em
+    text-align: right
+    line-height: 0.7em
+    margin: 0
