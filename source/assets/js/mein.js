@@ -12,17 +12,6 @@
       slides: "> .slide"
     });
 
-    $('.keinspam').nospam({ replaceText: true });
-
-    $(".mobilestandorte").click(function(){
-      $(".standortmenu").toggleClass("offen");
-    });
-
-    $(".mobilemenu").click(function(){
-      $(this).toggleClass("schliessen")
-      $(".mobileclass").toggleClass("menuoffen");
-    });
-
     var rhabarber = '<div class="browserblast">';
     rhabarber += '<h2>:-(</h2>';
     rhabarber += '<p>Ihr Browser stammt aus geraumer Vorzeit und ist zu alt, um unsere Website sauber darzustellen und sicher zu nutzen.</p>';
@@ -33,6 +22,18 @@
     document.body.innerHTML += rhabarber;
     $(".browserblast__closer").click(function(){
       $(".browserblast").fadeOut();
+    });
+
+
+    $('.keinspam').nospam({ replaceText: true });
+
+    $(".mobilestandorte").click(function(){
+      $(".standortmenu").toggleClass("offen");
+    });
+
+    $(".mobilemenu").click(function(){
+      $(this).toggleClass("schliessen")
+      $(".mobileclass").toggleClass("menuoffen");
     });
 
   });
