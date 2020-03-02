@@ -303,14 +303,7 @@ input
     width: 80%
     margin: 2em 10% 1em
 
-.cover
-  position: fixed
-  height: 100vh
-  left: 0
-  top: 0
-  width: 100vw
-  z-index: 2000
-  background-color: rgba(black, 0.2)
+
 .browserblast
   h2, p, a
     color: whitesmoke
@@ -337,3 +330,7 @@ input
     text-align: right
     line-height: 0.7em
     margin: 0
+
+@supports(display:grid)
+  .browserblast
+    display: none

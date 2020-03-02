@@ -30,11 +30,7 @@
     rhabarber += '<p class="absender">Ihr Team von KONFLIKT.GEWALT.</p>';
     rhabarber += '<p class="browserblast__closer">×</p>';
     rhabarber += '</div>';
-    var ua = window.navigator.userAgent;
-    var isIE = /MSIE|Trident/.test(ua);
-    if ( isIE ) {
-      document.body.innerHTML += rhabarber;
-    }
+    document.body.innerHTML += rhabarber;
     $(".browserblast__closer").click(function(){
       $(".browserblast").fadeOut();
     });
