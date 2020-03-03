@@ -4,6 +4,16 @@
 @import "_mixins"
 @import "_bplabels"
 
+// todo:
+// alt für alle Fotos
+// alt für alles slider
+// padding unten an inhalt
+// position standorte midi
+// mobile kontakt wie kontakt in standardmenü
+// mobile impressum etwas mehr abstand
+// trigger etwas kleiner und quadratisch
+
+
 html
   overflow-y: scroll
   +bp (mega)
@@ -38,7 +48,7 @@ html
     height: 180px
     width: auto
     position: relative
-    left: -2px
+    left: -0.3rem
     overflow: hidden
     +bp (midi)
       height: 140px
@@ -105,22 +115,29 @@ nav
   // font-size: 1rem
   margin: 0
   padding: 0
-  border-top: 2px solid grey
+  border-top: 2px solid $text
   padding-top: 0.6em
   +bp(maxi)
     min-width: 200px
-  +bp (midi)
-    display: none
+  +bp(midi)
+    background-color: rgba(whitesmoke, 0.93)
+    border: none
+    height: 100vh
+    height: calc(100vh - 12.45rem)
+    left: 0
+    padding-left: 7%
+    padding-right: 1em
+    padding-top: 0
     position: absolute
+    top: 12.45rem
+    transform: translateX(-100%)
+    transition: transform 0.3s ease-out
+    width: 100%
+    z-index: 1000
     &.menuoffen
-      background-color: rgba(whitesmoke, 0.93)
       transform: translateX(0)
-      display: block
-      position: absolute
-      z-index: 1000
-      padding-right: 1em
-      width: 86.5%
-      height: 100vh
+
+
       & li
         line-height: 1.4rem
   ul
@@ -181,7 +198,7 @@ nav
 // ____________________________________________
 
 .content
-  border-top: 2px solid grey
+  border-top: 2px solid $text
   padding-top: 0.6em
   h1
     font-size: 1.9rem
