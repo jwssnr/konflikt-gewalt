@@ -4,15 +4,6 @@
 @import "_mixins"
 @import "_bplabels"
 
-// todo:
-// alt für alle Fotos
-// alt für alles slider
-// padding unten an inhalt
-// position standorte midi
-// mobile kontakt wie kontakt in standardmenü
-// mobile impressum etwas mehr abstand
-// trigger etwas kleiner und quadratisch
-
 
 html
   overflow-y: scroll
@@ -72,7 +63,7 @@ html
       transform: translateY(-100%)
       transition: transform 0.3s ease-out
       +bp (midi)
-        padding-top: 0.3em
+        padding-top: 1em
       &.offen
         transform: translateY(0)
 
@@ -98,14 +89,12 @@ html
 
 // ____________________________________________
 
-i
-  color: fuchsia
 
 .box
   display: grid
   grid-template-columns: 14rem 1fr
   grid-gap: 1em
-  padding: 1rem 0 2em 0
+  padding: 1rem 0 1em 0
   +bp (midi)
     grid-gap: 0
     grid-template-columns: auto
@@ -150,10 +139,10 @@ nav
     color: $schmuck
 .mobilemenu
   display: none
-  width: 40px
-  height: 35px
+  width: 34px
+  height: 34px
   background-image: url(../images/burgermenu.svg)
-  background-size: cover
+  background-size: contain
   background-repeat: no-repeat
   +bp (midi)
     cursor: pointer
@@ -163,7 +152,7 @@ nav
     top: 2em
 .schliessen
   background-image: url(../images/close.svg)
-  background-size: cover
+  background-size: contain
   background-repeat: no-repeat
 
 #kontaktdaten
@@ -180,6 +169,7 @@ nav
   font-size: 13px
   +bp (midi)
     position: relative
+    top: 1em
 
 .current
   color: $schmuck
@@ -200,6 +190,9 @@ nav
 .content
   border-top: 2px solid $text
   padding-top: 0.6em
+  padding-bottom: 5em
+  +bp (midi)
+    padding-bottom: 1em
   h1
     font-size: 1.9rem
     line-height: 1.2em
@@ -326,12 +319,15 @@ input
 
 #kontaktmobile
   border-top: 2px solid $text
+  margin-top: 2em
+  padding: 0.5em 0 0 0
   display: none
   font-size: 0.9rem
   font-weight: bold
   p
-    text-align: center
-    margin: 0.5em 0 1.5em 0
+    margin: 0
+  a
+    background-image: none
   +bp (midi)
     display: block
 

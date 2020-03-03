@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="79" height="68" viewBox="0 0 79 68"><defs><style>.cls-1{fill:none;stroke:#c3161c;stroke-miterlimit:10;stroke-width:5px}</style></defs><title>Element 1</title><g id="Ebene_2" data-name="Ebene 2"><g id="Ebene_1-2" data-name="Ebene 1"><path class="cls-1" d="M79 2.5H0M79 34H0M79 65.5H0"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 69.8 68" style="enable-background:new 0 0 69.8 68;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#C3161C;stroke-width:5;stroke-miterlimit:10;}
+</style>
+<title>Element 1</title>
+<g>
+	<g id="Ebene_1-2">
+		<g>
+			<line class="st0" x1="69.8" y1="2.5" x2="0" y2="2.5"/>
+			<line class="st0" x1="69.8" y1="34" x2="0" y2="34"/>
+			<line class="st0" x1="69.8" y1="65.5" x2="0" y2="65.5"/>
+		</g>
+	</g>
+</g>
+</svg>
