@@ -181,7 +181,6 @@ nav
 // ____________________________________________
 
 .content
-  padding-bottom: 4rem
   border-top: 2px solid grey
   padding-top: 0.6em
   h1
@@ -308,7 +307,16 @@ input
     width: 80%
     margin: 2em 10% 1em
 
-
+#kontaktmobile
+  border-top: 2px solid $text
+  display: none
+  font-size: 0.9rem
+  font-weight: bold
+  p
+    text-align: center
+    margin: 0.5em 0 1.5em 0
+  +bp (midi)
+    display: block
 
 .browserblast
   h2, p, a

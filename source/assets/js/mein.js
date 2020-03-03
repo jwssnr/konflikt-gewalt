@@ -4,13 +4,6 @@
 
   $("document").ready(function(){
 
-    $('.slider').cycle({
-      fx: "scrollHorz",
-      timeout: 4000,
-      random: false,
-      speed: 800,
-      slides: "> .slide"
-    });
 
     var rhabarber = '<div class="browserblast">';
     rhabarber += '<h2>:-(</h2>';
@@ -24,6 +17,13 @@
       $(".browserblast").fadeOut();
     });
 
+    $('.slider').cycle({
+      fx: "scrollHorz",
+      timeout: 4000,
+      random: false,
+      speed: 800,
+      slides: "> .slide"
+    });
 
     $('.keinspam').nospam({ replaceText: true });
 
