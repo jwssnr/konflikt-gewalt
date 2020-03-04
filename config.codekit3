@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "31934",
 "files": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/.gitignore",
+		"oF": 0
+		},
 	"/build": {
 		"ft": 65536,
 		"oA": 1,
@@ -688,7 +696,7 @@
 		},
 	"/source/assets/images/slider/ah.jpg": {
 		"ft": 16384,
-		"iS": 40038,
+		"iS": 40662,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/assets/images/slider/ah.jpg",
@@ -699,7 +707,7 @@
 		},
 	"/source/assets/images/slider/bm.jpg": {
 		"ft": 16384,
-		"iS": 40141,
+		"iS": 58421,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/assets/images/slider/bm.jpg",
@@ -710,7 +718,7 @@
 		},
 	"/source/assets/images/slider/bp.jpg": {
 		"ft": 16384,
-		"iS": 42161,
+		"iS": 46199,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/assets/images/slider/bp.jpg",
@@ -721,7 +729,7 @@
 		},
 	"/source/assets/images/slider/bt.jpg": {
 		"ft": 16384,
-		"iS": 44065,
+		"iS": 47800,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/assets/images/slider/bt.jpg",
@@ -732,7 +740,7 @@
 		},
 	"/source/assets/images/slider/hrl.jpg": {
 		"ft": 16384,
-		"iS": 38111,
+		"iS": 41777,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/assets/images/slider/hrl.jpg",
@@ -743,7 +751,7 @@
 		},
 	"/source/assets/images/slider/hs.jpg": {
 		"ft": 16384,
-		"iS": 35174,
+		"iS": 38665,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/assets/images/slider/hs.jpg",
@@ -754,7 +762,7 @@
 		},
 	"/source/assets/images/slider/mkf.jpg": {
 		"ft": 16384,
-		"iS": 43678,
+		"iS": 46292,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/assets/images/slider/mkf.jpg",
@@ -765,7 +773,7 @@
 		},
 	"/source/assets/images/slider/ss.jpg": {
 		"ft": 16384,
-		"iS": 41775,
+		"iS": 48709,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/assets/images/slider/ss.jpg",
@@ -776,7 +784,7 @@
 		},
 	"/source/assets/images/slider/ub.jpg": {
 		"ft": 16384,
-		"iS": 51382,
+		"iS": 50388,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/assets/images/slider/ub.jpg",
