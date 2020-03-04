@@ -6,21 +6,24 @@
 
 
 html
+  font-size: 20px
   overflow-y: scroll
-  +bp (mega)
+  +bp(mega)
     font-size: 18px
-  +bp (midi)
-    font-size: 18px
+  +bp(maxi)
+    font-size: 17px
+  +bp(midi)
+    font-size: 16px
 *
   margin: 0 0
   font-variant-numeric: normal
 
 #container
+  width: 86%
   max-width: 1000px
   margin: 0 auto
-  +bp (mega)
-    padding: 0 7% 0 7%
-    max-width: 100%
+  // outline: 1px dotted red
+  // +bp(mega)
 
 // ____________________________________________
 
@@ -29,8 +32,13 @@ html
   display: grid
   grid-template-columns: 14rem 1fr
   grid-column-gap: 1em
-  justify-content: space-evenly
   align-items: end
+  +bp(maxi)
+    grid-template-columns: 12rem 1fr
+
+  // >*
+  //   background-color: rgba(#c0cc9e, 0.29)
+
   +bp (maxi)
     display: flex
     justify-content: space-between
@@ -41,18 +49,18 @@ html
     position: relative
     left: -0.3rem
     overflow: hidden
-    +bp (midi)
+    +bp(midi)
       height: 140px
   .mobilestandorte
     display: none
     text-align: right
-    +bp (mega)
+    +bp(maxi)
       display: block
       cursor: pointer
   .standortmenu
     display: flex
     justify-content: space-between
-    +bp (mega)
+    +bp (maxi)
       flex-direction: column
       text-align: right
       position: absolute
@@ -95,9 +103,11 @@ html
   grid-template-columns: 14rem 1fr
   grid-gap: 1em
   padding: 1rem 0 1em 0
+  +bp(maxi)
+    grid-template-columns: 12rem 1fr
   +bp (midi)
     grid-gap: 0
-    grid-template-columns: auto
+    grid-template-columns: 1fr
 
 nav
   // width: 250px
@@ -112,17 +122,20 @@ nav
     background-color: rgba(whitesmoke, 0.93)
     border: none
     height: 100vh
-    height: calc(100vh - 12.45rem)
     left: 0
     padding-left: 7%
     padding-right: 1em
     padding-top: 0
     position: absolute
-    top: 12.45rem
     transform: translateX(-100%)
     transition: transform 0.3s ease-out
     width: 100%
     z-index: 1000
+    height: calc(100vh - 13.5rem)
+    top: 13.5rem
+    +bp(mini)
+      height: calc(100vh - 13.2rem)
+      top: 13.2rem
     &.menuoffen
       transform: translateX(0)
 

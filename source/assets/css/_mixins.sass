@@ -1,12 +1,9 @@
 =bp($size)
-  @if $size == stop
-    @media (min-width: 1300px)
-      @content
   @if $size == mega
-    @media (max-width: 1200px)
+    @media (max-width: 1300px)
       @content
   @if $size == maxi
-    @media (max-width: 850px)
+    @media (max-width: 990px)
       @content
   @if $size == midi
     @media (max-width: 700px)
