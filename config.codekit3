@@ -47,6 +47,14 @@
 		"oAP": "/build/_menu.html",
 		"oF": 0
 		},
+	"/source/_slideteam.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_slideteam.html",
+		"oF": 0
+		},
 	"/source/aktuelles-seminar.kit": {
 		"cB": 0,
 		"ft": 2048,
