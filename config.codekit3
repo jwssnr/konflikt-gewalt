@@ -524,91 +524,91 @@
 		"oAP": "/build/fuer-zuweisende-institutionen.html",
 		"oF": 0
 		},
-	"/source/images/aussagen/Aussage_1_web.svg": {
+	"/source/images/aussagen/1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "/build/images/aussagen/Aussage_1_web.svg",
+		"oAP": "/build/images/aussagen/1.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/source/images/aussagen/Aussage_2_web.svg": {
+	"/source/images/aussagen/2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "/build/images/aussagen/Aussage_2_web.svg",
+		"oAP": "/build/images/aussagen/2.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/source/images/aussagen/Aussage_3_web.svg": {
+	"/source/images/aussagen/3.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "/build/images/aussagen/Aussage_3_web.svg",
+		"oAP": "/build/images/aussagen/3.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/source/images/aussagen/Aussage_4_web.svg": {
+	"/source/images/aussagen/4.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "/build/images/aussagen/Aussage_4_web.svg",
+		"oAP": "/build/images/aussagen/4.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/source/images/aussagen/Aussage_5_web.svg": {
+	"/source/images/aussagen/5.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "/build/images/aussagen/Aussage_5_web.svg",
+		"oAP": "/build/images/aussagen/5.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/source/images/aussagen/Aussage_6_web.svg": {
+	"/source/images/aussagen/6.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "/build/images/aussagen/Aussage_6_web.svg",
+		"oAP": "/build/images/aussagen/6.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/source/images/aussagen/Aussage_7_web.svg": {
+	"/source/images/aussagen/7.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "/build/images/aussagen/Aussage_7_web.svg",
+		"oAP": "/build/images/aussagen/7.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/source/images/aussagen/Aussage_8_web.svg": {
+	"/source/images/aussagen/8.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "/build/images/aussagen/Aussage_8_web.svg",
+		"oAP": "/build/images/aussagen/8.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/source/images/aussagen/Aussage_9_web.svg": {
+	"/source/images/aussagen/9.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "/build/images/aussagen/Aussage_9_web.svg",
+		"oAP": "/build/images/aussagen/9.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
@@ -1030,7 +1030,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_teal",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 605179947.80989897
+	"lastBuiltDate": 605181352.73693705
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
