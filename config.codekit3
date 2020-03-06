@@ -515,6 +515,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/source/assets/images/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/assets/images/favicon.ico",
+		"oF": 0
+		},
 	"/source/assets/images/karten/Karte1.jpg": {
 		"ft": 16384,
 		"iS": 12455,
@@ -591,6 +599,16 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"/source/assets/images/KonfliktGewalt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/assets/images/KonfliktGewalt.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/source/assets/images/personen/Andreas_Hartmann.jpg": {
 		"ft": 16384,
@@ -871,29 +889,11 @@
 		"oAP": "/build/fuer-zuweisende-institutionen.html",
 		"oF": 0
 		},
-	"/source/images/favicon.ico": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/images/favicon.ico",
-		"oF": 0
-		},
 	"/source/images/Gewaltkreislauf.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
 		"oAP": "/build/images/Gewaltkreislauf.svg",
-		"oF": 0,
-		"opt": 1,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/source/images/KonfliktGewalt.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "/build/images/KonfliktGewalt.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
