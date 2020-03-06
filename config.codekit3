@@ -524,91 +524,91 @@
 		"oAP": "/build/fuer-zuweisende-institutionen.html",
 		"oF": 0
 		},
-	"/source/images/aussagen/1.svg": {
+	"/source/images/aussagen/a_1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "/build/images/aussagen/1.svg",
+		"oAP": "/build/images/aussagen/a_1.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/source/images/aussagen/2.svg": {
+	"/source/images/aussagen/a_2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "/build/images/aussagen/2.svg",
+		"oAP": "/build/images/aussagen/a_2.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/source/images/aussagen/3.svg": {
+	"/source/images/aussagen/a_3.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "/build/images/aussagen/3.svg",
+		"oAP": "/build/images/aussagen/a_3.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/source/images/aussagen/4.svg": {
+	"/source/images/aussagen/a_4.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "/build/images/aussagen/4.svg",
+		"oAP": "/build/images/aussagen/a_4.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/source/images/aussagen/5.svg": {
+	"/source/images/aussagen/a_5.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "/build/images/aussagen/5.svg",
+		"oAP": "/build/images/aussagen/a_5.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/source/images/aussagen/6.svg": {
+	"/source/images/aussagen/a_6.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "/build/images/aussagen/6.svg",
+		"oAP": "/build/images/aussagen/a_6.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/source/images/aussagen/7.svg": {
+	"/source/images/aussagen/a_7.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "/build/images/aussagen/7.svg",
+		"oAP": "/build/images/aussagen/a_7.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/source/images/aussagen/8.svg": {
+	"/source/images/aussagen/a_8.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "/build/images/aussagen/8.svg",
+		"oAP": "/build/images/aussagen/a_8.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/source/images/aussagen/9.svg": {
+	"/source/images/aussagen/a_9.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "/build/images/aussagen/9.svg",
+		"oAP": "/build/images/aussagen/a_9.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
@@ -1030,7 +1030,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_teal",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 605181352.73693705
+	"lastBuiltDate": 605182598.13403106
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
