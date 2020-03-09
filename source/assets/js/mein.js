@@ -21,8 +21,9 @@
       fx: "scrollHorz",
       timeout: 4000,
       // timeout: 0,
-      random: false,
+      random: true,
       speed: 800,
+      autoHeight: "4:3",
       slides: "> .slide"
     });
 
