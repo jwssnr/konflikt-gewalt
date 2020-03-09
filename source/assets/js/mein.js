@@ -21,7 +21,8 @@
       fx: "scrollHorz",
       timeout: 4000,
       // timeout: 0,
-      random: true,
+      // random: true,
+      startingSlide: Math.floor(Math.random() * 18), // where 15 is the slidecount 
       speed: 800,
       autoHeight: "4:3",
       slides: "> .slide"
