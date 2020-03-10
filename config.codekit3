@@ -364,20 +364,12 @@
 		"oAP": "/build/files/Karten/Karte_7.pdf",
 		"oF": 0
 		},
-	"/source/files/KonfliktGewalt_Angebot_2018_A4.pdf": {
+	"/source/files/KonfliktGewalt_Angebot_2018.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/files/KonfliktGewalt_Angebot_2018_A4.pdf",
-		"oF": 0
-		},
-	"/source/files/KonfliktGewalt_Angebot_2018_A5.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/files/KonfliktGewalt_Angebot_2018_A5.pdf",
+		"oAP": "/build/files/KonfliktGewalt_Angebot_2018.pdf",
 		"oF": 0
 		},
 	"/source/files/Leuz-Arbeit.pdf": {
@@ -1046,7 +1038,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_teal",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 605523280.06025398
+	"lastBuiltDate": 605526445.27448297
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
