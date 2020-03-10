@@ -524,6 +524,14 @@
 		"oAP": "/build/fuer-zuweisende-institutionen.html",
 		"oF": 0
 		},
+	"/source/google12d0f2249a4d9ed6.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/google12d0f2249a4d9ed6.html",
+		"oF": 0
+		},
 	"/source/images/aussagen/a_1.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1030,7 +1038,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_teal",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 605182598.13403106
+	"lastBuiltDate": 605522085.35856199
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
