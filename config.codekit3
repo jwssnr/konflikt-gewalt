@@ -9,18 +9,26 @@
 	],
 "creatorBuild": "31934",
 "files": {
-	"/.gitignore": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/.gitignore",
-		"oF": 0
-		},
 	"/build": {
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "/build/build",
+		"oF": 0
+		},
+	"/source/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/.htaccess",
+		"oF": 0
+		},
+	"/source/404.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/404.html",
 		"oF": 0
 		},
 	"/source/_fuss.kit": {
@@ -1038,7 +1046,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_teal",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 605522085.35856199
+	"lastBuiltDate": 605523280.06025398
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
