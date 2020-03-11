@@ -227,6 +227,10 @@ nav
     margin-top: -1rem
     +bp (midi)
       font-size: 1.1rem
+
+  h4
+    font-size: 1rem
+    font-weight: normal
   sup
     line-height: 1em
     font-size: 0.7em
@@ -234,8 +238,7 @@ nav
     color: inherit
   ul, p, .slider
     margin-bottom: 1.3em
-  .aufzaehlung
-    margin-bottom: 0
+
   li
     position: relative
     padding-left: 1.2rem
@@ -267,6 +270,16 @@ nav
       background-image: linear-gradient($schmuck,$schmuck)
   .listenbr
     line-height: 0.6em
+
+.error
+  *
+    color: $schmuck
+  a
+    font-weight: bold
+
+#mc_embed_signup
+  margin-bottom: 1.3rem
+
 
 @import "_slider"
 
@@ -352,6 +365,10 @@ input
   +bp (midi)
     display: block
 
+
+
+
+
 .browserblast
   h2, p, a
     color: whitesmoke
@@ -382,10 +399,3 @@ input
 @supports(display:grid)
   .browserblast
     display: none
-
-
-.error
-  *
-    color: $schmuck
-  a
-    font-weight: bold
