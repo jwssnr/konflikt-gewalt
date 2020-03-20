@@ -308,60 +308,60 @@
 		"oAP": "/build/files/Interview_jugendlicherVater.pdf",
 		"oF": 0
 		},
-	"/source/files/Karten/Karte_1.pdf": {
+	"/source/files/Karten/Karte-1.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/files/Karten/Karte_1.pdf",
+		"oAP": "/build/files/Karten/Karte-1.pdf",
 		"oF": 0
 		},
-	"/source/files/Karten/Karte_2.pdf": {
+	"/source/files/Karten/Karte-2.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/files/Karten/Karte_2.pdf",
+		"oAP": "/build/files/Karten/Karte-2.pdf",
 		"oF": 0
 		},
-	"/source/files/Karten/Karte_3.pdf": {
+	"/source/files/Karten/Karte-3.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/files/Karten/Karte_3.pdf",
+		"oAP": "/build/files/Karten/Karte-3.pdf",
 		"oF": 0
 		},
-	"/source/files/Karten/Karte_4.pdf": {
+	"/source/files/Karten/Karte-4.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/files/Karten/Karte_4.pdf",
+		"oAP": "/build/files/Karten/Karte-4.pdf",
 		"oF": 0
 		},
-	"/source/files/Karten/Karte_5.pdf": {
+	"/source/files/Karten/Karte-5.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/files/Karten/Karte_5.pdf",
+		"oAP": "/build/files/Karten/Karte-5.pdf",
 		"oF": 0
 		},
-	"/source/files/Karten/Karte_6.pdf": {
+	"/source/files/Karten/Karte-6.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/files/Karten/Karte_6.pdf",
+		"oAP": "/build/files/Karten/Karte-6.pdf",
 		"oF": 0
 		},
-	"/source/files/Karten/Karte_7.pdf": {
+	"/source/files/Karten/Karte-7.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/files/Karten/Karte_7.pdf",
+		"oAP": "/build/files/Karten/Karte-7.pdf",
 		"oF": 0
 		},
 	"/source/files/KonfliktGewalt_Angebot_2018.pdf": {
@@ -1054,7 +1054,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_teal",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 606244049.59896004
+	"lastBuiltDate": 606383400.19406605
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
