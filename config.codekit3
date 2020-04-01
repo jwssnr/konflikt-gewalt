@@ -244,6 +244,14 @@
 		"oAP": "/build/chur.html",
 		"oF": 0
 		},
+	"/source/corona-krise.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/corona-krise.html",
+		"oF": 0
+		},
 	"/source/einzelne-paare-familien.kit": {
 		"cB": 1,
 		"ft": 2048,
@@ -282,6 +290,78 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/files/Bericht-B-MgM-OCH.pdf",
+		"oF": 0
+		},
+	"/source/files/corona/Corona-Krise-Merkblatt.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/files/corona/Corona-Krise-Merkblatt.pdf",
+		"oF": 0
+		},
+	"/source/files/corona/GZA_Merkblatt_Corona_ALBANISCH.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/files/corona/GZA_Merkblatt_Corona_ALBANISCH.pdf",
+		"oF": 0
+		},
+	"/source/files/corona/GZA_Merkblatt_Corona_DEUTSCH.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/files/corona/GZA_Merkblatt_Corona_DEUTSCH.pdf",
+		"oF": 0
+		},
+	"/source/files/corona/GZA_Merkblatt_Corona_ENGLISCH.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/files/corona/GZA_Merkblatt_Corona_ENGLISCH.pdf",
+		"oF": 0
+		},
+	"/source/files/corona/GZA_Merkblatt_Corona_FRANZOESISCH.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/files/corona/GZA_Merkblatt_Corona_FRANZOESISCH.pdf",
+		"oF": 0
+		},
+	"/source/files/corona/GZA_Merkblatt_Corona_ITALIENISCH.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/files/corona/GZA_Merkblatt_Corona_ITALIENISCH.pdf",
+		"oF": 0
+		},
+	"/source/files/corona/GZA_Merkblatt_Corona_POLNISCH.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/files/corona/GZA_Merkblatt_Corona_POLNISCH.pdf",
+		"oF": 0
+		},
+	"/source/files/corona/GZA_Merkblatt_Corona_SPANISCH.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/files/corona/GZA_Merkblatt_Corona_SPANISCH.pdf",
+		"oF": 0
+		},
+	"/source/files/corona/GZA_Merkblatt_Corona_UNGARISCH.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/files/corona/GZA_Merkblatt_Corona_UNGARISCH.pdf",
 		"oF": 0
 		},
 	"/source/files/epaper_St.Galler_Tagblatt_Hauptausgabe_20160707 33.pdf": {
