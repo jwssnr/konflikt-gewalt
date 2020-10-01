@@ -77,7 +77,7 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/aktuelles-seminar.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/source/assets/css/_bplabels.sass": {
 		"aP": 1,
@@ -586,6 +586,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/files/SSA-WB-2019.pdf",
+		"oF": 0
+		},
+	"/source/files/SSA-WB-2021.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/files/SSA-WB-2021.pdf",
 		"oF": 0
 		},
 	"/source/files/SSA-WB-Juni-2020.pdf": {
