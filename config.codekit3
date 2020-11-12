@@ -572,6 +572,14 @@
 		"oAP": "/build/files/MgM-JB2018.pdf",
 		"oF": 0
 		},
+	"/source/files/MgM-JB2019.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/files/MgM-JB2019.pdf",
+		"oF": 0
+		},
 	"/source/files/SSA-Phaemo-2019.pdf": {
 		"cB": 0,
 		"ft": 8192,
@@ -1123,14 +1131,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/kontakt-ablauf.html",
-		"oF": 0
-		},
-	"/source/MgM-JB2019.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/MgM-JB2019.pdf",
 		"oF": 0
 		},
 	"/source/netzwerk.kit": {
