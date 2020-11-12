@@ -564,6 +564,14 @@
 		"oAP": "/build/files/MgM-JB2018-v2.pdf",
 		"oF": 0
 		},
+	"/source/files/MgM-JB2018-v3.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/build/files/MgM-JB2018-v3.pdf",
+		"oF": 1
+		},
 	"/source/files/MgM-JB2018.pdf": {
 		"cB": 0,
 		"ft": 8192,
