@@ -3548,7 +3548,7 @@
 	"uglifyReservedNamesString": "$,exports,require",
 	"webpPresets": {
 		},
-	"websiteRelativeRoot": "/build"
+	"websiteRelativeRoot": "build"
 	},
 "settingsFileVersion": "3"
 }
